@@ -10,7 +10,7 @@ contract FavoriteRecords {
 
     error NotApproved(string albumName);
 
-    () {
+    constructor() {
         approvedRecordsIndex = [
             "Thriller",
             "Back in Black",
